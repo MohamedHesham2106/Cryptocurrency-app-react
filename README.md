@@ -9,7 +9,7 @@
 - [Credit](#credit)
 
 ## About The App
-[Cryptocurrency] is a real-time cryocurrency market values app using CoinGecko API
+[Cryptocurrency] is a real-time cryptocurrency market values app using CoinGecko API
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/102517583/179296401-a2c9de64-1465-467c-80b3-f9d4e6b48ebb.png)
