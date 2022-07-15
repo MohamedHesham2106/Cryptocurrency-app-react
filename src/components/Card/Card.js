@@ -5,7 +5,7 @@ const Card = (props) => {
     <div className={style.card}>
       <div className={style["card__info"]}>
         <h6>{props.type}</h6>
-        <h5>{props.value}</h5>
+        <h4>{props.value}</h4>
       </div>
       <div
         className={style["card__icon"]}

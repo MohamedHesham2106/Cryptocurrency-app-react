@@ -102,7 +102,7 @@ const CardList = () => {
     fetchAssetPlatforms();
     fetchExchanges();
     fetchIndexes();
-  }, []);
+  }, [fetchCategories, fetchAssetPlatforms, fetchExchanges, fetchIndexes]);
   return (
     <div className={style["card__container"]}>
       {transformedData.map((data) => (

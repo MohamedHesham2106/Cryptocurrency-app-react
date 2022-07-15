@@ -4,6 +4,11 @@
   background-color: #233044;
   padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px 0px;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+.card:hover {
+  transform: scale(1.05);
 }
 .card__info {
   display: flex;
@@ -14,12 +19,12 @@
 .card__info h6 {
   opacity: 0.6;
 }
-.card__info h5 {
+.card__info h4 {
   font-weight: 700;
 }
 .card__icon {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   padding: 10px;
   border-radius: 50px;
   font-size: 2rem;

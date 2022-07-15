@@ -4,13 +4,13 @@ const TableRow = (props) => {
   console.log("PROPS: " + props);
   return (
     <div className={style["table__row"]}>
-      <p>
+      <div>
         <img src={props.currency.image} alt={props.name} />
-      </p>
-      <p>{props.currency.name}</p>
-      <p>{props.currency.symbol}</p>
-      <p>${props.currency.current_price.toFixed(2)}</p>
-      <p
+      </div>
+      <div>{props.currency.name}</div>
+      <div>{props.currency.symbol}</div>
+      <div>${props.currency.current_price.toFixed(2)}</div>
+      <div
         className={
           props.currency.price_change_percentage_24h > 0
             ? style.positive
@@ -18,9 +18,9 @@ const TableRow = (props) => {
         }
       >
         {props.currency.price_change_percentage_24h.toFixed(2)}%
-      </p>
-      <p>{props.currency.total_volume}</p>
-      <p>{props.currency.market_cap}</p>
+      </div>
+      <div>${props.currency.total_volume}</div>
+      <div>${props.currency.market_cap}</div>
     </div>
   );
 };

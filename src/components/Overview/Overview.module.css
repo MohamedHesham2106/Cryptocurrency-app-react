@@ -9,12 +9,12 @@
   display: flex;
   margin: 0;
   padding-top: 1rem;
-  align-items: center;
+  color: #ccc;
 }
-.overview span {
+.overview h5 span {
   color: #49a54f;
   background-color: #203438;
-  border-radius: 5px;
+  border-radius: 2px;
   margin-left: 5px;
-  padding: 2px 5px;
+  padding: 2px 8px;
 }

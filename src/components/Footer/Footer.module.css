@@ -1,0 +1,22 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: rgba(255, 255, 255, 0.5);
+  padding: 1.5rem;
+  width: 100%;
+  margin-top: 15px;
+  background-color: #1b2635;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+.footer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  margin-left: 3px;
+  color: rgba(255, 255, 255, 0.5);
+}

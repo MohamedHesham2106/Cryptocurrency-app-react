@@ -3,11 +3,11 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
+  margin-bottom: 5%;
 }
 .search {
   background-color: #233044;
   padding: 1.5rem 3rem;
-  border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px 0px;
 }
 .search input {
@@ -25,21 +25,7 @@
 }
 .search input::placeholder {
   color: #fff;
-  text-transform: uppercase;
+  opacity: 0.6;
   letter-spacing: 1.5px;
-  font-size: 12px;
-}
-.table__container {
-  background-color: #233044;
-  padding: 1.5rem 3rem;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px 0px;
-}
-.table__header {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  justify-content: space-between;
-  text-align: center;
-  padding: 0.7rem 1rem;
-  color: #fff;
+  font-size: 1rem;
 }

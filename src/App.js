@@ -1,8 +1,9 @@
 import React, { useEffect, useState, useCallback } from "react";
 import Header from "./components/Header/Header";
 import Overview from "./components/Overview/Overview";
-import CurrencyTable from "./components/Table/CurrencyTable";
+import Table from "./components/Table/Table";
 import axios from "axios";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [currency, setCurrency] = useState([]);
@@ -25,7 +26,8 @@ function App() {
     <React.Fragment>
       <Header />
       <Overview />
-      <CurrencyTable currency={currency} />
+      <Table currency={currency} />
+      <Footer />
     </React.Fragment>
   );
 }

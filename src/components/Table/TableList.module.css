@@ -1,0 +1,16 @@
+.table__container {
+  background-color: #233044;
+  padding: 1.5rem 0;
+  padding-bottom: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px 0px;
+}
+.table__header {
+  display: grid;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+  grid-template-columns: repeat(7, 1fr);
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0.7rem 3rem;
+  padding-bottom: 2rem;
+  color: #fff;
+}
