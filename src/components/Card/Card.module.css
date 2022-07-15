@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  width: 100%;
+  background-color: #233044;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px 0px;
+}
+.card__info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+}
+.card__info h6 {
+  opacity: 0.6;
+}
+.card__info h5 {
+  font-weight: 700;
+}
+.card__icon {
+  display: flex;
+  justify-content: start;
+  padding: 10px;
+  border-radius: 50px;
+  font-size: 2rem;
+}

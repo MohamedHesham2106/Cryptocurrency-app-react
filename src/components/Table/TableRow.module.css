@@ -1,0 +1,24 @@
+.table__row {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid rgba(204, 204, 204, 0.5);
+  border-width: 0.2px;
+  padding: 0.7rem 1rem;
+  color: white;
+  text-align: center;
+}
+
+.table__row img {
+  height: 30px;
+
+  width: auto;
+}
+.negative {
+  color: #d76f78;
+}
+.positive {
+  color: #59a57a;
+}
+
