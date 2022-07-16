@@ -12,9 +12,8 @@
 [Cryptocurrency] is a real-time cryptocurrency market values app using CoinGecko API
 
 ## Screenshots
-![image](https://user-images.githubusercontent.com/102517583/179296401-a2c9de64-1465-467c-80b3-f9d4e6b48ebb.png)
-![image](https://user-images.githubusercontent.com/102517583/179296424-421686f0-e7c2-4b65-a6a0-0bbb1f861e6d.png)
-![image](https://user-images.githubusercontent.com/102517583/179296474-c42d9d6e-ace7-431a-9865-18458ea433f8.png)
+![image](https://user-images.githubusercontent.com/102517583/179361295-8cbf491e-a3af-426d-809c-a4f39b5268d5.png)
+![image](https://user-images.githubusercontent.com/102517583/179361303-f3719caf-67bb-45ed-8daf-3d6b58eb23a5.png)
 
 
 
