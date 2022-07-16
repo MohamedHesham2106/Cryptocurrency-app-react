@@ -10,8 +10,8 @@ const TableList = (props) => {
         <div>Symbol</div>
         <div>Price</div>
         <div>24h</div>
-        <div>Volume</div>
-        <div>Market Cap</div>
+        <div className={style.hide}>Volume</div>
+        <div className={style.hide}>Market Cap</div>
       </div>
       {props.filteredData.map((curr) => (
         <TableRow currency={curr} key={curr.id} />

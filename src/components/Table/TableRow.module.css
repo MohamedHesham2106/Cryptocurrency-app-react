@@ -17,15 +17,21 @@
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
-.table__row div {
-  display: flex;
-  align-items: flex-start;
-}
 .negative {
   color: #d76f78;
 }
 .positive {
   color: #59a57a;
+}
+@media screen and (max-width: 900px) {
+  .table__row {
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    padding: 1.7rem 0;
+  }
+  .hide {
+    display: none !important;
+  }
 }
 @keyframes shake {
   0% {

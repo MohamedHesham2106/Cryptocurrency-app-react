@@ -1,14 +1,13 @@
 import React from "react";
 import style from "./TableRow.module.css";
 const TableRow = (props) => {
-  console.log("PROPS: " + props);
   return (
     <div className={style["table__row"]}>
       <div>
         <img src={props.currency.image} alt={props.name} />
       </div>
       <div>{props.currency.name}</div>
-      <div>{props.currency.symbol}</div>
+      <div>{props.currency.symbol.toUpperCase()}</div>
       <div>${props.currency.current_price.toFixed(2)}</div>
       <div
         className={
@@ -19,8 +18,8 @@ const TableRow = (props) => {
       >
         {props.currency.price_change_percentage_24h.toFixed(2)}%
       </div>
-      <div>${props.currency.total_volume}</div>
-      <div>${props.currency.market_cap}</div>
+      <div className={style.hide}>${props.currency.total_volume}</div>
+      <div className={style.hide}>${props.currency.market_cap}</div>
     </div>
   );
 };

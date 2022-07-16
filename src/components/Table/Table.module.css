@@ -8,18 +8,19 @@
 .search {
   background-color: #233044;
   padding: 1.5rem 3rem;
+  border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px 0px;
 }
 .search input {
   outline: none;
-  width: 30%;
+  width: 45%;
   padding: 20px 20px;
   background-color: transparent;
   transition: transform 250ms ease-in-out;
   font-size: 16px;
   line-height: 18px;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 2px;
   border: 2px solid #f4f4f4;
   font-family: "Montserrat", sans-serif;
 }
@@ -28,4 +29,15 @@
   opacity: 0.6;
   letter-spacing: 1.5px;
   font-size: 1rem;
+}
+@media screen and (max-width: 900px) {
+  .container {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+  .search input {
+    width: 100%;
+  }
 }

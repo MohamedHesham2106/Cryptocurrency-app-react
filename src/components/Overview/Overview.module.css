@@ -1,5 +1,6 @@
 .overview {
   display: grid;
+  margin-top: 5rem;
   grid-template-columns: 1fr;
   padding: 2rem 3rem;
   color: #fff;
@@ -17,4 +18,10 @@
   border-radius: 2px;
   margin-left: 5px;
   padding: 2px 8px;
+}
+@media screen and (max-width: 900px) {
+  .overview h1,h5 {
+    text-align: center;
+    justify-content: center;
+  }
 }
